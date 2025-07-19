@@ -7,7 +7,7 @@ export default function Home() {
 //  const [isloading,setIsloading]=useState(true);
 //  const [error, setError]=useState(null);
 
- const {data: blogposts, isloading, error} = useFetch('http://localhost:8000/blogs');
+ const {data: blogposts, isloading, error} = useFetch('http://localhost:8001/blogs');
 
 
   // const handleDelete = (id) =>{
@@ -18,13 +18,13 @@ export default function Home() {
   
   return (
     <div>
-        <div><h1 className=' text-amber-600 text-3xl bold'>Welcome the the page</h1></div>
-        <div>All the blogs</div>
-        <div>
+        <div><h1 className=' text-amber-600 text-3xl bold pt-5 pb-5'>Welcome the the page</h1></div>
+
+        <div className=' flex flex-col gap-5'>
           {error && <div>{error}</div>}
           {isloading && <div>Loading...</div>}
           {/* {blogposts &&  <Bloglist blog={blogposts} handleDelete = {handleDelete}/>} */}
-         {blogposts &&  <Bloglist blog={blogposts}/>}
+          {blogposts &&  <Bloglist blog={blogposts} />}
           {/* <p className=' text-2xl text-orange-600'>The Blog by Author 4</p>
           <Bloglist blog={blogposts.filter((blog)=>(blog.author === 'Author 4'))}/> */}
         </div>

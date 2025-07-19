@@ -4,8 +4,8 @@ function Bloglist({blog}) {
 
     const blogposts = blog;
   return (
-    <div>{blogposts.map((post) =>
-            <div key={post.id}>
+    <div >{blogposts.map((post) =>
+            <div className=' bg-white p-5 rounded-lg shadow-md w-2/4 hover:shadow-lg mb-2' key={post.id}>
               <h2 className=' text-2xl font-bold'>{post.title}</h2>
               <p>{post.content}</p>
               <p className=' text-sm text-gray-500'>By {post.author} on {post.date}</p>
