@@ -7,7 +7,7 @@ export default function Home() {
 //  const [isloading,setIsloading]=useState(true);
 //  const [error, setError]=useState(null);
 
- const {data: blogposts, isloading, error} = useFetch('http://localhost:8001/blogs');
+ const {data: blogposts, isloading, error} = useFetch('http://localhost:8000/blogs');
 
 
   // const handleDelete = (id) =>{
