@@ -1,8 +1,10 @@
 import React from 'react'
 
-function BlogPage({}) {
+function BlogPage() {
   return (
-    <div>BlogPage</div>
+    <div>
+      <h1>Blog content will goes here</h1>
+    </div>
   )
 }
 
