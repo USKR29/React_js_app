@@ -1,0 +1,32 @@
+{
+    "blogs": [
+        {
+            "id": 1,
+            "title": "Understanding JSON",
+            "content": "JSON stands for JavaScript Object Notation. It is a lightweight data interchange format that is easy for humans to read and write, and easy for machines to parse and generate.",
+            "author": "John Doe",
+            "date": "2023-10-01"
+        },
+        {
+            "id": 2,
+            "title": "Getting Started with Python",
+            "content": "Python is a versatile programming language that is great for beginners and experienced developers alike. It has a simple syntax and a large community.",
+            "author": "Jane Smith",
+            "date": "2023-10-05"
+        },
+        {
+            "id": 3,
+            "title": "Getting Started with Nextjs",
+            "content": "Python is a versatile programming language that is great for beginners and experienced developers alike. It has a simple syntax and a large community.",
+            "author": "Amber ",
+            "date": "2023-10-05"
+        },
+        {
+            "id": 4,
+            "title": "Exploring JavaScript",
+            "content": "JavaScript is a dynamic programming language that is widely used for web development. It allows developers to create interactive and dynamic web pages.",
+            "author": "Alice Johnson",
+            "date": "2023-10-10"
+        }
+    ]
+}
