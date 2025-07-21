@@ -7,7 +7,7 @@ export default function Home() {
 //  const [isloading,setIsloading]=useState(true);
 //  const [error, setError]=useState(null);
 
- const {data: blogposts, isloading, error} = useFetch('http://localhost:8001/blogs');
+ const {data: blogposts, isloading, error} = useFetch('http://localhost:8000/blogs');
 
 
   // const handleDelete = (id) =>{
@@ -18,7 +18,7 @@ export default function Home() {
   
   return (
     <div>
-        <div><h1 className=' text-amber-600 text-3xl bold pt-5 pb-5'>Welcome the the page</h1></div>
+        <div><h1 className=' text-amber-600 text-3xl bold pt-5 pb-5'>Welcome To The Blog page</h1></div>
 
         <div className=' flex flex-col gap-5'>
           {error && <div>{error}</div>}

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 function Header() {
   return (
@@ -7,8 +7,10 @@ function Header() {
         <div className=' text-stone-400 text-2xl bold px-5'>Code Me.</div>
         <div className=' text-black-200 text-xl bold px-5'>
             <ul className='flex gap-5'>
-              <li> <Link to={'/'}>Home</Link></li>
-              <li> <Link to={'/blogs'}>Blogs</Link></li>
+              <li> <NavLink  to={'/'} className={({isActive})=>isActive?  'bg-orange-300 rounded-md p-1':''}>Home</NavLink ></li>
+              <li> <NavLink  to={'/blogs'} className={({isActive})=>isActive?  'bg-orange-300 rounded-md p-1':''}>Blogs</NavLink ></li>
+              <li> <NavLink to={'/test'} className={({isActive})=>isActive?  'bg-orange-300 rounded-md p-1':''}>About</NavLink></li>
+              <li> <NavLink  to={'/create'} className={({isActive})=>isActive?  'bg-orange-300 rounded-md p-1':''}>Create</NavLink ></li>
             </ul>
         </div>
     </div>

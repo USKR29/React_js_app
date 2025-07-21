@@ -1,32 +1,25 @@
 {
-    "blogs": [
-        {
-            "id": 1,
-            "title": "Understanding JSON",
-            "content": "JSON stands for JavaScript Object Notation. It is a lightweight data interchange format that is easy for humans to read and write, and easy for machines to parse and generate.",
-            "author": "John Doe",
-            "date": "2023-10-01"
-        },
-        {
-            "id": 2,
-            "title": "Getting Started with Python",
-            "content": "Python is a versatile programming language that is great for beginners and experienced developers alike. It has a simple syntax and a large community.",
-            "author": "Jane Smith",
-            "date": "2023-10-05"
-        },
-        {
-            "id": 3,
-            "title": "Getting Started with Nextjs",
-            "content": "Python is a versatile programming language that is great for beginners and experienced developers alike. It has a simple syntax and a large community.",
-            "author": "Amber ",
-            "date": "2023-10-05"
-        },
-        {
-            "id": 4,
-            "title": "Exploring JavaScript",
-            "content": "JavaScript is a dynamic programming language that is widely used for web development. It allows developers to create interactive and dynamic web pages.",
-            "author": "Alice Johnson",
-            "date": "2023-10-10"
-        }
-    ]
+  "blogs": [
+    {
+      "id": "4",
+      "title": "Exploring JavaScript",
+      "content": "JavaScript is a dynamic programming language that is widely used for web development. It allows developers to create interactive and dynamic web pages.",
+      "author": "Alice Johnson",
+      "date": "2023-10-10"
+    },
+    {
+      "id": "3839",
+      "title": "The Rise of AI in Everyday Life",
+      "content": "In recent years, the advancements in artificial intelligence have been nothing short of remarkable. AI is now powering everything from the voice assistants in our phones to the algorithms that curate our social media feeds. This pervasive integration raises questions about privacy, ethics, and the future of work. Companies are investing heavily in AI research and development, leading to breakthroughs in natural language processing, computer vision, and predictive analytics. As AI continues to evolve, its impact on society will only grow, fundamentally reshaping industries and human-computer interaction.",
+      "author": "Alice Johnson",
+      "date": "21/07/2025"
+    },
+    {
+      "id": "782f",
+      "title": "A Beginner's Guide to Sustainable Living",
+      "content": "Embracing sustainable living doesn't require drastic changes overnight. It's about conscious choices that collectively make a difference. Start by reducing plastic consumption, opting for reusable bags and bottles. Conserve energy by unplugging devices and using energy-efficient appliances. Support local businesses and farmers' markets to reduce your carbon footprint from transportation. Recycling and composting are also key components. Education yourself on ethical consumption and the lifecycle of products. Every small step contributes to a healthier planet.",
+      "author": "Jane Smith",
+      "date": "21/07/2025"
+    }
+  ]
 }
