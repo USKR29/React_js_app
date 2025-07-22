@@ -11,8 +11,8 @@ function Create() {
 
    const handleclick=(e)=>{
     e.preventDefault();
-    const blog ={title, content,author, date: new Date().toLocaleDateString()};
-    fetch('http://localhost:8000/blogs',{
+    const blog ={title, content,author};
+    fetch('/api/mern/',{
         method:'POST',
         headers:{"content-type": "application/json"},
         body: JSON.stringify(blog)

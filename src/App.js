@@ -17,9 +17,10 @@ function App() {
         <Routes>
           <Route path='/' Component={Home}/>
           <Route exact path='/blogs' Component={BlogPage}/>
-          <Route path = '/blogs/:id' Component={Blogdetail}/>
+          <Route path = '/api/mern/:id' Component={Blogdetail}/>
           <Route exact path = '/create' Component={Create}/>
           <Route exact path = '/test' Component={About}/>
+          <Route path=''/>
           <Route path='*' Component={Notfound}/>
         </Routes>
         </div>

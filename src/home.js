@@ -7,7 +7,7 @@ export default function Home() {
 //  const [isloading,setIsloading]=useState(true);
 //  const [error, setError]=useState(null);
 
- const {data: blogposts, isloading, error} = useFetch('http://localhost:8000/blogs');
+ const {data: blogposts, isloading, error} = useFetch('/api/mern/');
 
 
   // const handleDelete = (id) =>{
@@ -24,7 +24,7 @@ export default function Home() {
           {error && <div>{error}</div>}
           {isloading && <div>Loading...</div>}
           {/* {blogposts &&  <Bloglist blog={blogposts} handleDelete = {handleDelete}/>} */}
-          {blogposts &&  <Bloglist blog={blogposts} />}
+          {blogposts &&  <Bloglist key={blogposts._id} blog={blogposts} />}
           {/* <p className=' text-2xl text-orange-600'>The Blog by Author 4</p>
           <Bloglist blog={blogposts.filter((blog)=>(blog.author === 'Author 4'))}/> */}
         </div>
